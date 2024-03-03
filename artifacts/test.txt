@@ -1,0 +1,4 @@
+Books
+Dishes
+Clothes
+Food
