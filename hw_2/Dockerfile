@@ -16,6 +16,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 RUN python generator_v2.py
 
-RUN pdflatex artifacts/example_table.tex
+RUN pdflatex artifacts/example_img.tex
 
-CMD ["bash"]
+CMD ["tail", "-f", "/dev/null"]
+
